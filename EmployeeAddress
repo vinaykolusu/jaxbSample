@@ -1,0 +1,59 @@
+package com.vinaykolusu.projects.jaxbsample;
+
+public class EmployeeAddress {
+	
+	private String eAddressLine1;
+	private String eAddressLine2;
+	private String eCity;
+	private String eState;
+	private String eZipCode;
+	
+	
+	
+	public String geteAddressLine1() {
+		return eAddressLine1;
+	}
+	public void seteAddressLine1(String eAddressLine1) {
+		this.eAddressLine1 = eAddressLine1;
+	}
+	public String geteAddressLine2() {
+		return eAddressLine2;
+	}
+	public void seteAddressLine2(String eAddressLine2) {
+		this.eAddressLine2 = eAddressLine2;
+	}
+	public String geteCity() {
+		return eCity;
+	}
+	public void seteCity(String eCity) {
+		this.eCity = eCity;
+	}
+	public String geteState() {
+		return eState;
+	}
+	public void seteState(String eState) {
+		this.eState = eState;
+	}
+	public String geteZipCode() {
+		return eZipCode;
+	}
+	public void seteZipCode(String eZipCode) {
+		this.eZipCode = eZipCode;
+	}
+	public EmployeeAddress() {
+		
+		// TODO Auto-generated constructor stub
+	}
+	
+	public EmployeeAddress(String eAddressLine1, String eAddressLine2,
+			String eCity, String eState, String eZipCode) {
+		super();
+		this.eAddressLine1 = eAddressLine1;
+		this.eAddressLine2 = eAddressLine2;
+		this.eCity = eCity;
+		this.eState = eState;
+		this.eZipCode = eZipCode;
+	}
+	
+
+}
